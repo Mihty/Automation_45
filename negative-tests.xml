@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Negative Tests">
+    <test name="Negative Tests">
+        <groups>
+            <run>
+                <include name ="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ProzzoroTests.NegativeTests"/>
+        </classes>
+    </test>
+</suite>
